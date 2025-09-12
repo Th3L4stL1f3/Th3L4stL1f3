@@ -3,8 +3,6 @@
         />
 </h1>
 <h3>Desenvolvedor lucas-benevides </h3>
-<!--
-**Th3L4stL1f3/Th3L4stL1f3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -14,10 +12,10 @@ Here are some ideas to get you started:
 - 💬 Fique a vontade para perguntar qualquer coisa.
 - 📫 Voce pode entrar em contato comigo atraves dos seguintes canai: 📸instagram:https://www.instagram.com/lucasazin/
 - ⚡ Fatos interessante sobre mim: Sou formado em pintura artistica (tecnicas de cimento queimado, marmorizado e folheamento com ouro)
--->
-<div>
-  <a href="https://github.com/denisilvace"> 
-<img height="42%" src="https://github-readme-stats.vercel.app/api?username=LucasBenevides&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+
+- <div>
+  <a href="https://github.com/Th3L4stL1f3"> 
+<img height="42%" src="https://github-readme-stats.vercel.app/api?username=Th3L4stL1f3&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="50%
-" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasBenevides&layout=compact&langs_count=16&theme=dark"/>
+" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th3L4stL1f3&layout=compact&langs_count=16&theme=dark"/>
 </div>
