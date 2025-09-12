@@ -1,12 +1,13 @@
 name: Generate Snake
 
+# Dá permissão para o GITHUB_TOKEN escrever (necessário para criar/atualizar branch 'output')
+permissions:
+  contents: write
+
 on:
   schedule:
-    # Atualiza a cada 12 horas
-    - cron: "0 */12 * * *"
-
+    - cron: "0 */12 * * *"   # a cada 12 horas
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -16,25 +17,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Generate snake (SVG only, light + dark)
+        # Versão mais rápida quando só precisa de SVG
+        uses: Platane/snk/svg-only@v3
+        id: snk
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
-          # Personalização da animação
-          color_snake: "#00ffcc"     # Cor da cobrinha (verde-água neon)
-          color_dots: "#333333,#66ff99,#ff66cc,#ffcc00,#ffffff" # Paleta para pontos
+          outputs: |
+            # gera o SVG (light) — observe que os '#' foram URL-encoded (%23)
+            dist/github-contribution-grid-snake.svg?color_snake=%2300ffcc&color_dots=%23333333,%2366ff99,%23ff66cc,%23ffcc00,%23ffffff
+            # gera o SVG (dark) com palette especial
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23ff66cc&color_dots=%230a0a0a,%233c7dd9,%234b91f1,%23ffcc00,%23ffffff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore(snake): update animation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
