@@ -1,6 +1,5 @@
 name: Generate Snake
 
-# Dá permissão para o GITHUB_TOKEN escrever (necessário para criar/atualizar branch 'output')
 permissions:
   contents: write
 
@@ -22,25 +21,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate snake (SVG only, light + dark)
-        # Versão mais rápida quando só precisa de SVG
+      - name: Generate snake with custom background
         uses: Platane/snk/svg-only@v3
         id: snk
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            # gera o SVG (light) — observe que os '#' foram URL-encoded (%23)
-            dist/github-contribution-grid-snake.svg?color_snake=%2300ffcc&color_dots=%23333333,%2366ff99,%23ff66cc,%23ffcc00,%23ffffff
-            # gera o SVG (dark) com palette especial
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23ff66cc&color_dots=%230a0a0a,%233c7dd9,%234b91f1,%23ffcc00,%23ffffff
+            # Versão clara (fundo branco)
+            dist/github-contribution-grid-snake.svg?color_snake=%2300ffcc&color_dots=%23333333,%2366ff99,%23ff66cc,%23ffcc00,%23ffffff&color_bg=%23ffffff
+            # Versão escura (fundo cinza #0d1117 = cor padrão do GitHub dark)
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23ff66cc&color_dots=%230a0a0a,%233c7dd9,%234b91f1,%23ffcc00,%23ffffff&color_bg=%230d1117
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "chore(snake): update animation"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKE_
