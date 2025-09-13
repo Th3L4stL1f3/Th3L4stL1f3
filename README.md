@@ -1,8 +1,10 @@
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=2900&lines=Olá;\(O.O)/Bem+Vindo;+Sou+Lucas+benevides;" 
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4500&lines=Olá;\(O.O)/Bem+Vindo;+Sou+Lucas+benevides;" 
         />
 </h1>
-<h3>Desenvolvedor lucas-benevides </h3>
+<div align="center">
+  <img height="200" src="https://private-user-images.githubusercontent.com/61670288/489204173-83210a8e-5d28-4314-b413-5c7a68b58ea0.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3OTYzNjAsIm5iZiI6MTc1Nzc5NjA2MCwicGF0aCI6Ii82MTY3MDI4OC80ODkyMDQxNzMtODMyMTBhOGUtNWQyOC00MzE0LWI0MTMtNWM3YTY4YjU4ZWEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTEzVDIwNDEwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE1MmIyMzM2NGVhMzNiODdjYmI1NjIzNGNjNmNjODAzZDk1MGJlOWI3YjFiNDg4NWVlZjJmZjNjZTAzMWZhMjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.t_p-y5dzbEoZcuKU5Y_JVkq8PA5H0VE1ARC9vPIsfAQ"  />
+</div>
 
 Here are some ideas to get you started:
 
