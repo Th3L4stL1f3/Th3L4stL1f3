@@ -25,11 +25,11 @@ Here are some ideas to get you started:
   <img align="center" alt="Denis-CSS" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg">
   
 </div>
- <div>
-  <a href="https://github.com/Th3L4stL1f3"> 
-<img height="42%" src="https://github-readme-stats.vercel.app/api?username=Th3L4stL1f3&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="50%
-" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Th3L4stL1f3&layout=compact&langs_count=16&theme=dark"/>
+<br clear="both">
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Th3L4stL1f3&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Th3L4stL1f3&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=true&order=2" height="150" alt="languages graph"  />
 </div>
 
 <div>
@@ -39,5 +39,11 @@ Here are some ideas to get you started:
 
 </div>
 
-
 ##
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Th3L4stL1f3/Th3L4stL1f3/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Th3L4stL1f3/Th3L4stL1f3/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Th3L4stL1f3/Th3L4stL1f3/output/pacman-contribution-graph.svg">
+</picture>
+
