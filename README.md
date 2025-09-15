@@ -10,9 +10,6 @@
 </picture>
 
 
-![489204173-83210a8e-5d28-4314-b413-5c7a68b58ea0](https://github.com/user-attachments/assets/5c657fd2-85d2-40f9-a72e-1937fb74afac)
-
-
 Here are some ideas to get you started:
 
 - 🔭 Eu estou trabalhando atualmente como, consultor de proteção veicular SG
